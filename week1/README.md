@@ -4,3 +4,5 @@
 3. FLOPs([인공지능,머신러닝,딥러닝] (기초) FLOPs) : https://youtu.be/04DD9K9_O4w
 4. [인공지능,머신러닝,딥러닝] (기초) 수학 기호, 표기법 : https://youtu.be/LngLy0ea4Ek
 5. [인공지능,머신러닝,딥러닝] (기초) 학습의본질 : https://youtu.be/DFsyvX5jP3M
+6. [인공지능,머신러닝,딥러닝] (기초) Feature의 이해 - https://youtu.be/ShsfZ_50t_w
+7. 7.8.9.
