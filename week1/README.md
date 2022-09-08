@@ -5,4 +5,5 @@
 4. [인공지능,머신러닝,딥러닝] (기초) 수학 기호, 표기법 : https://youtu.be/LngLy0ea4Ek
 5. [인공지능,머신러닝,딥러닝] (기초) 학습의본질 : https://youtu.be/DFsyvX5jP3M
 6. [인공지능,머신러닝,딥러닝] (기초) Feature의 이해 - https://youtu.be/ShsfZ_50t_w
-7. 7.8.9.
+7. [인공지능,머신러닝,딥러닝] (기초) 미분 & 인공지능 학습 : https://youtu.be/yHKwCOW-5_Q
+8.
