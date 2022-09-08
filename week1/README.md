@@ -3,3 +3,4 @@
 2. XGBoost 개념정리 : https://webnautes.tistory.com/1643
 3. FLOPs([인공지능,머신러닝,딥러닝] (기초) FLOPs) : https://youtu.be/04DD9K9_O4w
 4. [인공지능,머신러닝,딥러닝] (기초) 수학 기호, 표기법 : https://youtu.be/LngLy0ea4Ek
+5. [인공지능,머신러닝,딥러닝] (기초) 학습의본질 : https://youtu.be/DFsyvX5jP3M
