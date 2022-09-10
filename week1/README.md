@@ -7,3 +7,4 @@
 6. [인공지능,머신러닝,딥러닝] (기초) Feature의 이해 - https://youtu.be/ShsfZ_50t_w
 7. [인공지능,머신러닝,딥러닝] (기초) 미분 & 인공지능 학습 : https://youtu.be/yHKwCOW-5_Q
 8. [컴퓨터구조개론] 5. Floating Point Arithmetic : https://readyfortest.tistory.com/47
+9 부동 소수점 덧셈(연산) : https://www.secmem.org/blog/2020/06/11/float-2/
