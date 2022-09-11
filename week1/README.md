@@ -9,3 +9,4 @@
 8. [컴퓨터구조개론] 5. Floating Point Arithmetic : https://readyfortest.tistory.com/47
 9. 부동 소수점 덧셈(연산) : https://www.secmem.org/blog/2020/06/11/float-2/
 10. von neumann bottleneck(폰노이만 병목현상) : https://nitro04.blogspot.com/2020/03/bep-1_54.html
+11. FP32 Representation of + 2/3에서 '2/3'의 의미는? : https://kin.naver.com/qna/detail.naver?d1id=1&dirId=104&docId=428005863&scrollTo=answer2
