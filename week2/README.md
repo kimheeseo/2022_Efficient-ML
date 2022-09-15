@@ -4,3 +4,4 @@
 － Forward(Memory, requirements) = Constant 이해.
 4. 고성능 코딩 In-place Operation : https://blog.naver.com/wideeyed/221374272094
 5. 바닐라모델 : https://lv99.tistory.com/30
+6. DeepLearning CNN BottleNeck 원리(Pytorch 구현) : https://coding-yoon.tistory.com/116
