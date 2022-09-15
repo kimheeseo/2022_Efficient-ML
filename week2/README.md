@@ -2,3 +2,4 @@
 2. training vs inference = https://manchann.tistory.com/16
 3. Dual Number and Automatic Differentiation： https://jryoungwmath.notion.site/Dual-Number-and-Automatic-Differentiation-1aedf496350340eca2f1ffd7e81d1566
 － Forward(Memory, requirements) = Constant 이해.
+4. 고성능 코딩 In-place Operation : https://blog.naver.com/wideeyed/221374272094
