@@ -6,6 +6,6 @@
 5. 바닐라모델 : https://lv99.tistory.com/30
 6. DeepLearning CNN BottleNeck 원리(Pytorch 구현) : https://coding-yoon.tistory.com/116
 7. 순전파, 역전파의 메모리 : https://ko.d2l.ai/chapter_deep-learning-basics/backprop.html
-8.
+8. 두 모델 중, FLOPs가 상대적으로 낮은 모델의 Inference time이 더 빠른가? : https://leechanhyuk.github.io/discussion/FLOPs%EA%B0%80-%EB%82%AE%EC%9C%BC%EB%A9%B4-%EB%8D%94-%EB%B9%A0%EB%A5%B8%EA%B0%80/
 9.
 10.
