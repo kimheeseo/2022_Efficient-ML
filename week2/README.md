@@ -8,4 +8,5 @@
 7. 순전파, 역전파의 메모리 : https://ko.d2l.ai/chapter_deep-learning-basics/backprop.html
 8. 두 모델 중, FLOPs가 상대적으로 낮은 모델의 Inference time이 더 빠른가? : https://leechanhyuk.github.io/discussion/FLOPs%EA%B0%80-%EB%82%AE%EC%9C%BC%EB%A9%B4-%EB%8D%94-%EB%B9%A0%EB%A5%B8%EA%B0%80/
 9. overhead : https://donggu1105.tistory.com/175
-10.
+10. wall clock time : https://2fered.tistory.com/614
+https://www.techtarget.com/whatis/definition/wall-time-real-world-time-or-wall-clock-time
