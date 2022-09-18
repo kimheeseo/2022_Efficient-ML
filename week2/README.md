@@ -11,4 +11,6 @@
 10. wall clock time
 - https://2fered.tistory.com/614
 - https://www.techtarget.com/whatis/definition/wall-time-real-world-time-or-wall-clock-time
-11. FLOPs 계산 : https://math.stackexchange.com/questions/2427094/computing-flops-for-matrix-multiplication
+11. FLOPs 계산
+12. - https://math.stackexchange.com/questions/2427094/computing-flops-for-matrix-multiplication
+13. - https://www.stat.cmu.edu/~ryantibs/convexopt-F18/scribes/Lecture_19.pdf
