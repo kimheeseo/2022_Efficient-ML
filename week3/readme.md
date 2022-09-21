@@ -6,7 +6,10 @@ week3
 2. interpolation
 - https://darkpgmr.tistory.com/117
 - https://www.youtube.com/watch?v=vmj0Ee_99qA
-3.
+
+3. two layer perceptron
+- https://www.youtube.com/watch?v=QTfxFLESXko
+
 4.
 5.
 6.
