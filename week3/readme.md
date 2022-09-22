@@ -18,4 +18,6 @@ week3
 
 6. SOTA(state-of-the-art)
 - https://fastcampus.co.kr/story_article_sota
-7.
+
+7. Hyperparameter tuning
+- https://cloud.google.com/ai-platform/training/docs/hyperparameter-tuning-overview?hl=ko
