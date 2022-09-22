@@ -15,5 +15,7 @@ week3
 
 5. Approximation error
 - https://web.stanford.edu/class/archive/cs/cs221/cs221.1186/lectures/learning3.pdf
-6.
+
+6. SOTA(state-of-the-art)
+- https://fastcampus.co.kr/story_article_sota
 7.
