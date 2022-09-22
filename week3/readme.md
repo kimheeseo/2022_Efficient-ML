@@ -10,7 +10,10 @@ week3
 3. two layer perceptron
 - https://www.youtube.com/watch?v=QTfxFLESXko
 
-4.
-5.
+4. Big O 표기법
+- https://noahlogs.tistory.com/27
+
+5. Approximation error
+- https://web.stanford.edu/class/archive/cs/cs221/cs221.1186/lectures/learning3.pdf
 6.
 7.
