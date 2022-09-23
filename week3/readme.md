@@ -28,3 +28,7 @@ week3
 
 9. ground truth
 - https://mac-user-guide.tistory.com/14
+
+10. early stopping
+- https://keras.io/api/callbacks/early_stopping/
+- https://medium.com/@rahuljain13101999/why-early-stopping-works-as-regularization-b9f0a6c2772
