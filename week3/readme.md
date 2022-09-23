@@ -25,3 +25,6 @@ week3
 8. 멱법칙(power law)
 - https://ko.wikipedia.org/wiki/%EB%A9%B1%EB%B2%95%EC%B9%99
 - https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=msnayana&logNo=80138475301
+
+9. ground truth
+- https://mac-user-guide.tistory.com/14
