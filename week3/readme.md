@@ -32,3 +32,6 @@ week3
 10. early stopping
 - https://keras.io/api/callbacks/early_stopping/
 - https://medium.com/@rahuljain13101999/why-early-stopping-works-as-regularization-b9f0a6c2772
+
+11. 점근선(asymptotic)
+- https://slidesplayer.org/slide/17691260/
