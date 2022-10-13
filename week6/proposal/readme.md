@@ -9,3 +9,6 @@ krnoecker operation : 크로네커 연산
 
 BLER(Block Error Rate) =  EB(erroneous block)/TB(total block)
 - https://www.techopedia.com/definition/6222/block-error-rate-bler
+
+Landmark code : BCH, RM(Reed-Muller), convolution, turbo, LDPC, polar code
+- linear code, it represnets a mathematical breakthrough.
