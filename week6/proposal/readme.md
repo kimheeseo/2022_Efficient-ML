@@ -12,3 +12,6 @@ BLER(Block Error Rate) =  EB(erroneous block)/TB(total block)
 
 Landmark code : BCH, RM(Reed-Muller), convolution, turbo, LDPC, polar code
 - linear code, it represnets a mathematical breakthrough.
+
+end-to-end training paradigm
+- https://wooono.tistory.com/228
