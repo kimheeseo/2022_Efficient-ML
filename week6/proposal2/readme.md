@@ -22,4 +22,4 @@ word2vec
 - https://wikidocs.net/22647
 
 positional Encoding
-- https://luminitworld.tistory.com/102
+- [https://luminitworld.tistory.com/102](https://www.blossominkyung.com/deeplearning/transfomer-positional-encoding)
