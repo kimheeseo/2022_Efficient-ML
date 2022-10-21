@@ -4,3 +4,6 @@ week7.m
 
 tensor
 - https://rekt77.tistory.com/m/102
+
+강의노트
+- alphatensor.pdf
