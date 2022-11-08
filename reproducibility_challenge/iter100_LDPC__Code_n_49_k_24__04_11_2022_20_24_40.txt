@@ -1,0 +1,596 @@
+Path to model/logs: Results_ECCT\LDPC__Code_n_49_k_24__04_11_2022_20_24_40
+Namespace(epochs=100, workers=0, lr=0.0001, gpus='0', batch_size=128, test_batch_size=2048, seed=42, code_type='LDPC', code_k=24, code_n=49, standardize=False, N_dec=6, d_model=32, h=8, code=<__main__.Code object at 0x0000020065112470>, path='Results_ECCT\\LDPC__Code_n_49_k_24__04_11_2022_20_24_40')
+Self-Attention Sparsity Ratio=72.26%, Self-Attention Complexity Ratio=13.87%
+Mask:
+ tensor([[[[False,  True,  True,  ...,  True,  True,  True],
+          [ True, False,  True,  ...,  True,  True,  True],
+          [ True,  True, False,  ...,  True,  True,  True],
+          ...,
+          [ True,  True,  True,  ..., False,  True,  True],
+          [ True,  True,  True,  ...,  True, False,  True],
+          [ True,  True,  True,  ...,  True,  True, False]]]])
+ECC_Transformer(
+  (decoder): Encoder(
+    (layers): ModuleList(
+      (0): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linears): ModuleList(
+            (0): Linear(in_features=32, out_features=32, bias=True)
+            (1): Linear(in_features=32, out_features=32, bias=True)
+            (2): Linear(in_features=32, out_features=32, bias=True)
+            (3): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=32, out_features=128, bias=True)
+          (w_2): Linear(in_features=128, out_features=32, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (sublayer): ModuleList(
+          (0): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+          (1): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+        )
+      )
+      (1): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linears): ModuleList(
+            (0): Linear(in_features=32, out_features=32, bias=True)
+            (1): Linear(in_features=32, out_features=32, bias=True)
+            (2): Linear(in_features=32, out_features=32, bias=True)
+            (3): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=32, out_features=128, bias=True)
+          (w_2): Linear(in_features=128, out_features=32, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (sublayer): ModuleList(
+          (0): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+          (1): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+        )
+      )
+      (2): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linears): ModuleList(
+            (0): Linear(in_features=32, out_features=32, bias=True)
+            (1): Linear(in_features=32, out_features=32, bias=True)
+            (2): Linear(in_features=32, out_features=32, bias=True)
+            (3): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=32, out_features=128, bias=True)
+          (w_2): Linear(in_features=128, out_features=32, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (sublayer): ModuleList(
+          (0): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+          (1): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+        )
+      )
+      (3): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linears): ModuleList(
+            (0): Linear(in_features=32, out_features=32, bias=True)
+            (1): Linear(in_features=32, out_features=32, bias=True)
+            (2): Linear(in_features=32, out_features=32, bias=True)
+            (3): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=32, out_features=128, bias=True)
+          (w_2): Linear(in_features=128, out_features=32, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (sublayer): ModuleList(
+          (0): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+          (1): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+        )
+      )
+      (4): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linears): ModuleList(
+            (0): Linear(in_features=32, out_features=32, bias=True)
+            (1): Linear(in_features=32, out_features=32, bias=True)
+            (2): Linear(in_features=32, out_features=32, bias=True)
+            (3): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=32, out_features=128, bias=True)
+          (w_2): Linear(in_features=128, out_features=32, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (sublayer): ModuleList(
+          (0): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+          (1): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+        )
+      )
+      (5): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linears): ModuleList(
+            (0): Linear(in_features=32, out_features=32, bias=True)
+            (1): Linear(in_features=32, out_features=32, bias=True)
+            (2): Linear(in_features=32, out_features=32, bias=True)
+            (3): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=32, out_features=128, bias=True)
+          (w_2): Linear(in_features=128, out_features=32, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (sublayer): ModuleList(
+          (0): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+          (1): SublayerConnection(
+            (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+        )
+      )
+    )
+    (norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+    (norm2): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+  )
+  (oned_final_embed): Sequential(
+    (0): Linear(in_features=32, out_features=1, bias=True)
+  )
+  (out_fc): Linear(in_features=77, out_features=49, bias=True)
+)
+# of Parameters: 82671
+Training epoch 1, Batch 500/1000: LR=1.00e-04, Loss=2.50e-01 BER=8.23e-02 FER=8.53e-01
+Training epoch 1, Batch 1000/1000: LR=1.00e-04, Loss=2.19e-01 BER=6.81e-02 FER=8.41e-01
+Epoch 1 Train Time 52.272839307785034s
+
+
+Test Loss 4: 1.95e-01 5: 1.36e-01 6: 8.49e-02
+Test FER 4: 9.48e-01 5: 8.61e-01 6: 6.99e-01
+Test BER 4: 5.84e-02 5: 3.95e-02 6: 2.42e-02
+Test -ln(BER) 4: 2.84e+00 5: 3.23e+00 6: 3.72e+00
+# of testing samples: [100352.0, 100352.0, 100352.0]
+ Test Time 56.879103899002075 s
+
+Training epoch 2, Batch 500/1000: LR=1.00e-04, Loss=1.72e-01 BER=5.33e-02 FER=8.15e-01
+Training epoch 2, Batch 1000/1000: LR=1.00e-04, Loss=1.65e-01 BER=5.22e-02 FER=7.74e-01
+Epoch 2 Train Time 38.93819069862366s
+
+Training epoch 3, Batch 500/1000: LR=9.99e-05, Loss=1.45e-01 BER=4.81e-02 FER=6.36e-01
+Training epoch 3, Batch 1000/1000: LR=9.99e-05, Loss=1.40e-01 BER=4.68e-02 FER=6.09e-01
+Epoch 3 Train Time 38.96344232559204s
+
+Training epoch 4, Batch 500/1000: LR=9.98e-05, Loss=1.29e-01 BER=4.40e-02 FER=5.50e-01
+Training epoch 4, Batch 1000/1000: LR=9.98e-05, Loss=1.26e-01 BER=4.32e-02 FER=5.37e-01
+Epoch 4 Train Time 39.748807191848755s
+
+Training epoch 5, Batch 500/1000: LR=9.96e-05, Loss=1.19e-01 BER=4.12e-02 FER=5.08e-01
+Training epoch 5, Batch 1000/1000: LR=9.96e-05, Loss=1.17e-01 BER=4.07e-02 FER=4.99e-01
+Epoch 5 Train Time 39.77909755706787s
+
+Training epoch 6, Batch 500/1000: LR=9.94e-05, Loss=1.11e-01 BER=3.92e-02 FER=4.80e-01
+Training epoch 6, Batch 1000/1000: LR=9.94e-05, Loss=1.09e-01 BER=3.88e-02 FER=4.77e-01
+Epoch 6 Train Time 39.451146841049194s
+
+Training epoch 7, Batch 500/1000: LR=9.91e-05, Loss=1.04e-01 BER=3.75e-02 FER=4.63e-01
+Training epoch 7, Batch 1000/1000: LR=9.91e-05, Loss=1.02e-01 BER=3.70e-02 FER=4.60e-01
+Epoch 7 Train Time 39.38250255584717s
+
+Training epoch 8, Batch 500/1000: LR=9.88e-05, Loss=9.69e-02 BER=3.56e-02 FER=4.47e-01
+Training epoch 8, Batch 1000/1000: LR=9.88e-05, Loss=9.51e-02 BER=3.51e-02 FER=4.42e-01
+Epoch 8 Train Time 39.12235236167908s
+
+Training epoch 9, Batch 500/1000: LR=9.84e-05, Loss=8.99e-02 BER=3.38e-02 FER=4.25e-01
+Training epoch 9, Batch 1000/1000: LR=9.84e-05, Loss=8.82e-02 BER=3.31e-02 FER=4.18e-01
+Epoch 9 Train Time 39.226027965545654s
+
+Training epoch 10, Batch 500/1000: LR=9.80e-05, Loss=8.38e-02 BER=3.16e-02 FER=4.01e-01
+Training epoch 10, Batch 1000/1000: LR=9.80e-05, Loss=8.28e-02 BER=3.13e-02 FER=3.95e-01
+Epoch 10 Train Time 39.103185176849365s
+
+Training epoch 11, Batch 500/1000: LR=9.76e-05, Loss=7.89e-02 BER=3.00e-02 FER=3.78e-01
+Training epoch 11, Batch 1000/1000: LR=9.76e-05, Loss=7.77e-02 BER=2.96e-02 FER=3.72e-01
+Epoch 11 Train Time 39.11224174499512s
+
+Training epoch 12, Batch 500/1000: LR=9.71e-05, Loss=7.42e-02 BER=2.83e-02 FER=3.54e-01
+Training epoch 12, Batch 1000/1000: LR=9.71e-05, Loss=7.34e-02 BER=2.80e-02 FER=3.51e-01
+Epoch 12 Train Time 39.03252363204956s
+
+Training epoch 13, Batch 500/1000: LR=9.65e-05, Loss=7.09e-02 BER=2.69e-02 FER=3.36e-01
+Training epoch 13, Batch 1000/1000: LR=9.65e-05, Loss=6.99e-02 BER=2.66e-02 FER=3.31e-01
+Epoch 13 Train Time 38.74670720100403s
+
+Training epoch 14, Batch 500/1000: LR=9.59e-05, Loss=6.74e-02 BER=2.56e-02 FER=3.17e-01
+Training epoch 14, Batch 1000/1000: LR=9.59e-05, Loss=6.64e-02 BER=2.52e-02 FER=3.11e-01
+Epoch 14 Train Time 38.70993494987488s
+
+Training epoch 15, Batch 500/1000: LR=9.53e-05, Loss=6.42e-02 BER=2.44e-02 FER=2.99e-01
+Training epoch 15, Batch 1000/1000: LR=9.53e-05, Loss=6.31e-02 BER=2.39e-02 FER=2.94e-01
+Epoch 15 Train Time 38.82008457183838s
+
+Training epoch 16, Batch 500/1000: LR=9.46e-05, Loss=6.03e-02 BER=2.28e-02 FER=2.79e-01
+Training epoch 16, Batch 1000/1000: LR=9.46e-05, Loss=5.98e-02 BER=2.26e-02 FER=2.76e-01
+Epoch 16 Train Time 38.86549520492554s
+
+Training epoch 17, Batch 500/1000: LR=9.39e-05, Loss=5.82e-02 BER=2.20e-02 FER=2.69e-01
+Training epoch 17, Batch 1000/1000: LR=9.39e-05, Loss=5.75e-02 BER=2.17e-02 FER=2.64e-01
+Epoch 17 Train Time 38.73978853225708s
+
+Training epoch 18, Batch 500/1000: LR=9.31e-05, Loss=5.61e-02 BER=2.12e-02 FER=2.55e-01
+Training epoch 18, Batch 1000/1000: LR=9.31e-05, Loss=5.52e-02 BER=2.09e-02 FER=2.49e-01
+Epoch 18 Train Time 39.10488486289978s
+
+Training epoch 19, Batch 500/1000: LR=9.23e-05, Loss=5.33e-02 BER=2.01e-02 FER=2.37e-01
+Training epoch 19, Batch 1000/1000: LR=9.23e-05, Loss=5.28e-02 BER=1.99e-02 FER=2.32e-01
+Epoch 19 Train Time 38.78010582923889s
+
+Training epoch 20, Batch 500/1000: LR=9.14e-05, Loss=5.01e-02 BER=1.88e-02 FER=2.17e-01
+Training epoch 20, Batch 1000/1000: LR=9.14e-05, Loss=4.99e-02 BER=1.88e-02 FER=2.17e-01
+Epoch 20 Train Time 38.723649740219116s
+
+Training epoch 21, Batch 500/1000: LR=9.05e-05, Loss=4.79e-02 BER=1.81e-02 FER=2.05e-01
+Training epoch 21, Batch 1000/1000: LR=9.05e-05, Loss=4.74e-02 BER=1.79e-02 FER=2.02e-01
+Epoch 21 Train Time 38.73530459403992s
+
+Training epoch 22, Batch 500/1000: LR=8.96e-05, Loss=4.73e-02 BER=1.79e-02 FER=1.99e-01
+Training epoch 22, Batch 1000/1000: LR=8.96e-05, Loss=4.67e-02 BER=1.77e-02 FER=1.96e-01
+Epoch 22 Train Time 38.863107204437256s
+
+Training epoch 23, Batch 500/1000: LR=8.86e-05, Loss=4.51e-02 BER=1.71e-02 FER=1.89e-01
+Training epoch 23, Batch 1000/1000: LR=8.86e-05, Loss=4.51e-02 BER=1.71e-02 FER=1.88e-01
+Epoch 23 Train Time 38.7303352355957s
+
+Training epoch 24, Batch 500/1000: LR=8.76e-05, Loss=4.45e-02 BER=1.69e-02 FER=1.83e-01
+Training epoch 24, Batch 1000/1000: LR=8.76e-05, Loss=4.47e-02 BER=1.70e-02 FER=1.84e-01
+Epoch 24 Train Time 38.74290990829468s
+
+Training epoch 25, Batch 500/1000: LR=8.66e-05, Loss=4.41e-02 BER=1.68e-02 FER=1.80e-01
+Training epoch 25, Batch 1000/1000: LR=8.66e-05, Loss=4.34e-02 BER=1.65e-02 FER=1.77e-01
+Epoch 25 Train Time 38.75583624839783s
+
+Training epoch 26, Batch 500/1000: LR=8.55e-05, Loss=4.19e-02 BER=1.59e-02 FER=1.70e-01
+Training epoch 26, Batch 1000/1000: LR=8.55e-05, Loss=4.22e-02 BER=1.60e-02 FER=1.72e-01
+Epoch 26 Train Time 38.74247193336487s
+
+Training epoch 27, Batch 500/1000: LR=8.44e-05, Loss=4.16e-02 BER=1.59e-02 FER=1.68e-01
+Training epoch 27, Batch 1000/1000: LR=8.44e-05, Loss=4.21e-02 BER=1.61e-02 FER=1.69e-01
+Epoch 27 Train Time 38.820175647735596s
+
+Training epoch 28, Batch 500/1000: LR=8.32e-05, Loss=4.21e-02 BER=1.62e-02 FER=1.71e-01
+Training epoch 28, Batch 1000/1000: LR=8.32e-05, Loss=4.18e-02 BER=1.61e-02 FER=1.69e-01
+Epoch 28 Train Time 38.755037784576416s
+
+Training epoch 29, Batch 500/1000: LR=8.21e-05, Loss=4.08e-02 BER=1.56e-02 FER=1.63e-01
+Training epoch 29, Batch 1000/1000: LR=8.21e-05, Loss=4.10e-02 BER=1.57e-02 FER=1.64e-01
+Epoch 29 Train Time 38.71195101737976s
+
+Training epoch 30, Batch 500/1000: LR=8.08e-05, Loss=4.14e-02 BER=1.59e-02 FER=1.64e-01
+Training epoch 30, Batch 1000/1000: LR=8.08e-05, Loss=4.10e-02 BER=1.58e-02 FER=1.63e-01
+Epoch 30 Train Time 38.70944046974182s
+
+Training epoch 31, Batch 500/1000: LR=7.96e-05, Loss=3.98e-02 BER=1.53e-02 FER=1.60e-01
+Training epoch 31, Batch 1000/1000: LR=7.96e-05, Loss=4.03e-02 BER=1.55e-02 FER=1.61e-01
+Epoch 31 Train Time 38.82587647438049s
+
+Training epoch 32, Batch 500/1000: LR=7.83e-05, Loss=4.00e-02 BER=1.53e-02 FER=1.58e-01
+Training epoch 32, Batch 1000/1000: LR=7.83e-05, Loss=3.99e-02 BER=1.53e-02 FER=1.58e-01
+Epoch 32 Train Time 38.71950912475586s
+
+Training epoch 33, Batch 500/1000: LR=7.70e-05, Loss=3.98e-02 BER=1.54e-02 FER=1.58e-01
+Training epoch 33, Batch 1000/1000: LR=7.70e-05, Loss=3.96e-02 BER=1.53e-02 FER=1.56e-01
+Epoch 33 Train Time 38.70324230194092s
+
+Training epoch 34, Batch 500/1000: LR=7.57e-05, Loss=3.93e-02 BER=1.51e-02 FER=1.54e-01
+Training epoch 34, Batch 1000/1000: LR=7.57e-05, Loss=3.93e-02 BER=1.51e-02 FER=1.55e-01
+Epoch 34 Train Time 38.75156354904175s
+
+Training epoch 35, Batch 500/1000: LR=7.43e-05, Loss=3.92e-02 BER=1.51e-02 FER=1.54e-01
+Training epoch 35, Batch 1000/1000: LR=7.43e-05, Loss=3.92e-02 BER=1.51e-02 FER=1.54e-01
+Epoch 35 Train Time 38.73129081726074s
+
+Training epoch 36, Batch 500/1000: LR=7.30e-05, Loss=3.82e-02 BER=1.47e-02 FER=1.50e-01
+Training epoch 36, Batch 1000/1000: LR=7.30e-05, Loss=3.82e-02 BER=1.48e-02 FER=1.50e-01
+Epoch 36 Train Time 39.01665258407593s
+
+Training epoch 37, Batch 500/1000: LR=7.16e-05, Loss=3.91e-02 BER=1.51e-02 FER=1.53e-01
+Training epoch 37, Batch 1000/1000: LR=7.16e-05, Loss=3.88e-02 BER=1.51e-02 FER=1.52e-01
+Epoch 37 Train Time 38.87467932701111s
+
+Training epoch 38, Batch 500/1000: LR=7.02e-05, Loss=3.84e-02 BER=1.48e-02 FER=1.49e-01
+Training epoch 38, Batch 1000/1000: LR=7.02e-05, Loss=3.85e-02 BER=1.49e-02 FER=1.51e-01
+Epoch 38 Train Time 38.746087312698364s
+
+Training epoch 39, Batch 500/1000: LR=6.87e-05, Loss=3.90e-02 BER=1.51e-02 FER=1.52e-01
+Training epoch 39, Batch 1000/1000: LR=6.87e-05, Loss=3.88e-02 BER=1.50e-02 FER=1.51e-01
+Epoch 39 Train Time 38.72930836677551s
+
+Training epoch 40, Batch 500/1000: LR=6.73e-05, Loss=3.83e-02 BER=1.49e-02 FER=1.50e-01
+Training epoch 40, Batch 1000/1000: LR=6.73e-05, Loss=3.80e-02 BER=1.47e-02 FER=1.49e-01
+Epoch 40 Train Time 38.80417990684509s
+
+Training epoch 41, Batch 500/1000: LR=6.58e-05, Loss=3.85e-02 BER=1.50e-02 FER=1.50e-01
+Training epoch 41, Batch 1000/1000: LR=6.58e-05, Loss=3.84e-02 BER=1.50e-02 FER=1.50e-01
+Epoch 41 Train Time 38.67680525779724s
+
+Training epoch 42, Batch 500/1000: LR=6.43e-05, Loss=3.73e-02 BER=1.45e-02 FER=1.46e-01
+Training epoch 42, Batch 1000/1000: LR=6.43e-05, Loss=3.73e-02 BER=1.45e-02 FER=1.47e-01
+Epoch 42 Train Time 38.6588990688324s
+
+Training epoch 43, Batch 500/1000: LR=6.28e-05, Loss=3.80e-02 BER=1.48e-02 FER=1.49e-01
+Training epoch 43, Batch 1000/1000: LR=6.28e-05, Loss=3.78e-02 BER=1.47e-02 FER=1.48e-01
+Epoch 43 Train Time 38.6428747177124s
+
+Training epoch 44, Batch 500/1000: LR=6.13e-05, Loss=3.80e-02 BER=1.49e-02 FER=1.49e-01
+Training epoch 44, Batch 1000/1000: LR=6.13e-05, Loss=3.84e-02 BER=1.50e-02 FER=1.49e-01
+Epoch 44 Train Time 38.64416790008545s
+
+Training epoch 45, Batch 500/1000: LR=5.98e-05, Loss=3.74e-02 BER=1.46e-02 FER=1.46e-01
+Training epoch 45, Batch 1000/1000: LR=5.98e-05, Loss=3.73e-02 BER=1.46e-02 FER=1.46e-01
+Epoch 45 Train Time 38.655158281326294s
+
+Training epoch 46, Batch 500/1000: LR=5.82e-05, Loss=3.71e-02 BER=1.45e-02 FER=1.45e-01
+Training epoch 46, Batch 1000/1000: LR=5.82e-05, Loss=3.67e-02 BER=1.44e-02 FER=1.45e-01
+Epoch 46 Train Time 38.746201276779175s
+
+Training epoch 47, Batch 500/1000: LR=5.67e-05, Loss=3.80e-02 BER=1.48e-02 FER=1.48e-01
+Training epoch 47, Batch 1000/1000: LR=5.67e-05, Loss=3.75e-02 BER=1.46e-02 FER=1.46e-01
+Epoch 47 Train Time 38.63475251197815s
+
+Training epoch 48, Batch 500/1000: LR=5.52e-05, Loss=3.63e-02 BER=1.42e-02 FER=1.42e-01
+Training epoch 48, Batch 1000/1000: LR=5.52e-05, Loss=3.66e-02 BER=1.43e-02 FER=1.43e-01
+Epoch 48 Train Time 38.628106355667114s
+
+Training epoch 49, Batch 500/1000: LR=5.36e-05, Loss=3.69e-02 BER=1.44e-02 FER=1.43e-01
+Training epoch 49, Batch 1000/1000: LR=5.36e-05, Loss=3.69e-02 BER=1.44e-02 FER=1.43e-01
+Epoch 49 Train Time 38.65236949920654s
+
+Training epoch 50, Batch 500/1000: LR=5.21e-05, Loss=3.69e-02 BER=1.44e-02 FER=1.43e-01
+Training epoch 50, Batch 1000/1000: LR=5.21e-05, Loss=3.69e-02 BER=1.44e-02 FER=1.43e-01
+Epoch 50 Train Time 38.63959789276123s
+
+Training epoch 51, Batch 500/1000: LR=5.05e-05, Loss=3.71e-02 BER=1.46e-02 FER=1.45e-01
+Training epoch 51, Batch 1000/1000: LR=5.05e-05, Loss=3.69e-02 BER=1.45e-02 FER=1.44e-01
+Epoch 51 Train Time 38.62970304489136s
+
+Training epoch 52, Batch 500/1000: LR=4.89e-05, Loss=3.67e-02 BER=1.45e-02 FER=1.44e-01
+Training epoch 52, Batch 1000/1000: LR=4.89e-05, Loss=3.65e-02 BER=1.44e-02 FER=1.42e-01
+Epoch 52 Train Time 38.64234209060669s
+
+Training epoch 53, Batch 500/1000: LR=4.74e-05, Loss=3.71e-02 BER=1.45e-02 FER=1.44e-01
+Training epoch 53, Batch 1000/1000: LR=4.74e-05, Loss=3.67e-02 BER=1.44e-02 FER=1.42e-01
+Epoch 53 Train Time 38.713237285614014s
+
+Training epoch 54, Batch 500/1000: LR=4.58e-05, Loss=3.64e-02 BER=1.42e-02 FER=1.41e-01
+Training epoch 54, Batch 1000/1000: LR=4.58e-05, Loss=3.62e-02 BER=1.42e-02 FER=1.40e-01
+Epoch 54 Train Time 38.679962158203125s
+
+Training epoch 55, Batch 500/1000: LR=4.43e-05, Loss=3.65e-02 BER=1.44e-02 FER=1.41e-01
+Training epoch 55, Batch 1000/1000: LR=4.43e-05, Loss=3.63e-02 BER=1.43e-02 FER=1.41e-01
+Epoch 55 Train Time 38.755844831466675s
+
+Training epoch 56, Batch 500/1000: LR=4.28e-05, Loss=3.59e-02 BER=1.40e-02 FER=1.40e-01
+Training epoch 56, Batch 1000/1000: LR=4.28e-05, Loss=3.59e-02 BER=1.40e-02 FER=1.39e-01
+Epoch 56 Train Time 38.654561281204224s
+
+Training epoch 57, Batch 500/1000: LR=4.12e-05, Loss=3.68e-02 BER=1.44e-02 FER=1.44e-01
+Training epoch 57, Batch 1000/1000: LR=4.12e-05, Loss=3.65e-02 BER=1.44e-02 FER=1.42e-01
+Epoch 57 Train Time 38.65057325363159s
+
+Training epoch 58, Batch 500/1000: LR=3.97e-05, Loss=3.62e-02 BER=1.43e-02 FER=1.40e-01
+Training epoch 58, Batch 1000/1000: LR=3.97e-05, Loss=3.59e-02 BER=1.41e-02 FER=1.39e-01
+Epoch 58 Train Time 38.629948139190674s
+
+Training epoch 59, Batch 500/1000: LR=3.82e-05, Loss=3.65e-02 BER=1.44e-02 FER=1.42e-01
+Training epoch 59, Batch 1000/1000: LR=3.82e-05, Loss=3.61e-02 BER=1.42e-02 FER=1.40e-01
+Epoch 59 Train Time 38.650160789489746s
+
+Training epoch 60, Batch 500/1000: LR=3.67e-05, Loss=3.67e-02 BER=1.44e-02 FER=1.42e-01
+Training epoch 60, Batch 1000/1000: LR=3.67e-05, Loss=3.66e-02 BER=1.44e-02 FER=1.42e-01
+Epoch 60 Train Time 38.65988087654114s
+
+Training epoch 61, Batch 500/1000: LR=3.52e-05, Loss=3.61e-02 BER=1.43e-02 FER=1.39e-01
+Training epoch 61, Batch 1000/1000: LR=3.52e-05, Loss=3.61e-02 BER=1.43e-02 FER=1.39e-01
+Epoch 61 Train Time 38.62756848335266s
+
+Training epoch 62, Batch 500/1000: LR=3.37e-05, Loss=3.63e-02 BER=1.43e-02 FER=1.40e-01
+Training epoch 62, Batch 1000/1000: LR=3.37e-05, Loss=3.63e-02 BER=1.43e-02 FER=1.40e-01
+Epoch 62 Train Time 38.67820954322815s
+
+Training epoch 63, Batch 500/1000: LR=3.23e-05, Loss=3.58e-02 BER=1.42e-02 FER=1.39e-01
+Training epoch 63, Batch 1000/1000: LR=3.23e-05, Loss=3.60e-02 BER=1.42e-02 FER=1.40e-01
+Epoch 63 Train Time 38.65572214126587s
+
+Training epoch 64, Batch 500/1000: LR=3.08e-05, Loss=3.56e-02 BER=1.40e-02 FER=1.37e-01
+Training epoch 64, Batch 1000/1000: LR=3.08e-05, Loss=3.57e-02 BER=1.40e-02 FER=1.37e-01
+Epoch 64 Train Time 38.753862619400024s
+
+Training epoch 65, Batch 500/1000: LR=2.94e-05, Loss=3.64e-02 BER=1.44e-02 FER=1.42e-01
+Training epoch 65, Batch 1000/1000: LR=2.94e-05, Loss=3.62e-02 BER=1.43e-02 FER=1.41e-01
+Epoch 65 Train Time 38.68698453903198s
+
+Training epoch 66, Batch 500/1000: LR=2.80e-05, Loss=3.50e-02 BER=1.39e-02 FER=1.37e-01
+Training epoch 66, Batch 1000/1000: LR=2.80e-05, Loss=3.55e-02 BER=1.40e-02 FER=1.38e-01
+Epoch 66 Train Time 38.62751340866089s
+
+Training epoch 67, Batch 500/1000: LR=2.67e-05, Loss=3.54e-02 BER=1.40e-02 FER=1.38e-01
+Training epoch 67, Batch 1000/1000: LR=2.67e-05, Loss=3.58e-02 BER=1.41e-02 FER=1.39e-01
+Epoch 67 Train Time 38.65948295593262s
+
+Training epoch 68, Batch 500/1000: LR=2.53e-05, Loss=3.59e-02 BER=1.42e-02 FER=1.39e-01
+Training epoch 68, Batch 1000/1000: LR=2.53e-05, Loss=3.58e-02 BER=1.42e-02 FER=1.39e-01
+Epoch 68 Train Time 38.71780800819397s
+
+Training epoch 69, Batch 500/1000: LR=2.40e-05, Loss=3.54e-02 BER=1.40e-02 FER=1.38e-01
+Training epoch 69, Batch 1000/1000: LR=2.40e-05, Loss=3.53e-02 BER=1.40e-02 FER=1.37e-01
+Epoch 69 Train Time 38.65970039367676s
+
+Training epoch 70, Batch 500/1000: LR=2.27e-05, Loss=3.59e-02 BER=1.42e-02 FER=1.39e-01
+Training epoch 70, Batch 1000/1000: LR=2.27e-05, Loss=3.55e-02 BER=1.40e-02 FER=1.38e-01
+Epoch 70 Train Time 38.67365479469299s
+
+Training epoch 71, Batch 500/1000: LR=2.14e-05, Loss=3.55e-02 BER=1.41e-02 FER=1.38e-01
+Training epoch 71, Batch 1000/1000: LR=2.14e-05, Loss=3.54e-02 BER=1.41e-02 FER=1.38e-01
+Epoch 71 Train Time 38.66756319999695s
+
+Training epoch 72, Batch 500/1000: LR=2.02e-05, Loss=3.55e-02 BER=1.39e-02 FER=1.38e-01
+Training epoch 72, Batch 1000/1000: LR=2.02e-05, Loss=3.54e-02 BER=1.39e-02 FER=1.38e-01
+Epoch 72 Train Time 38.76673245429993s
+
+Training epoch 73, Batch 500/1000: LR=1.89e-05, Loss=3.57e-02 BER=1.42e-02 FER=1.39e-01
+Training epoch 73, Batch 1000/1000: LR=1.89e-05, Loss=3.53e-02 BER=1.40e-02 FER=1.37e-01
+Epoch 73 Train Time 38.697622299194336s
+
+Training epoch 74, Batch 500/1000: LR=1.78e-05, Loss=3.51e-02 BER=1.39e-02 FER=1.37e-01
+Training epoch 74, Batch 1000/1000: LR=1.78e-05, Loss=3.54e-02 BER=1.40e-02 FER=1.37e-01
+Epoch 74 Train Time 64.80062747001648s
+
+Training epoch 75, Batch 500/1000: LR=1.66e-05, Loss=3.50e-02 BER=1.38e-02 FER=1.35e-01
+Training epoch 75, Batch 1000/1000: LR=1.66e-05, Loss=3.51e-02 BER=1.38e-02 FER=1.36e-01
+Epoch 75 Train Time 39.022085666656494s
+
+Training epoch 76, Batch 500/1000: LR=1.55e-05, Loss=3.51e-02 BER=1.39e-02 FER=1.37e-01
+Training epoch 76, Batch 1000/1000: LR=1.55e-05, Loss=3.52e-02 BER=1.39e-02 FER=1.37e-01
+Epoch 76 Train Time 38.502153635025024s
+
+Training epoch 77, Batch 500/1000: LR=1.44e-05, Loss=3.50e-02 BER=1.39e-02 FER=1.36e-01
+Training epoch 77, Batch 1000/1000: LR=1.44e-05, Loss=3.51e-02 BER=1.40e-02 FER=1.37e-01
+Epoch 77 Train Time 38.41920876502991s
+
+Training epoch 78, Batch 500/1000: LR=1.34e-05, Loss=3.57e-02 BER=1.42e-02 FER=1.37e-01
+Training epoch 78, Batch 1000/1000: LR=1.34e-05, Loss=3.57e-02 BER=1.42e-02 FER=1.38e-01
+Epoch 78 Train Time 38.3960976600647s
+
+Training epoch 79, Batch 500/1000: LR=1.24e-05, Loss=3.55e-02 BER=1.41e-02 FER=1.36e-01
+Training epoch 79, Batch 1000/1000: LR=1.24e-05, Loss=3.56e-02 BER=1.41e-02 FER=1.37e-01
+Epoch 79 Train Time 38.38155436515808s
+
+Training epoch 80, Batch 500/1000: LR=1.14e-05, Loss=3.56e-02 BER=1.42e-02 FER=1.39e-01
+Training epoch 80, Batch 1000/1000: LR=1.14e-05, Loss=3.58e-02 BER=1.42e-02 FER=1.39e-01
+Epoch 80 Train Time 38.417919397354126s
+
+Training epoch 81, Batch 500/1000: LR=1.05e-05, Loss=3.55e-02 BER=1.40e-02 FER=1.37e-01
+Training epoch 81, Batch 1000/1000: LR=1.05e-05, Loss=3.54e-02 BER=1.40e-02 FER=1.37e-01
+Epoch 81 Train Time 38.37825059890747s
+
+Training epoch 82, Batch 500/1000: LR=9.56e-06, Loss=3.54e-02 BER=1.40e-02 FER=1.38e-01
+Training epoch 82, Batch 1000/1000: LR=9.56e-06, Loss=3.53e-02 BER=1.40e-02 FER=1.37e-01
+Epoch 82 Train Time 38.386096239089966s
+
+Training epoch 83, Batch 500/1000: LR=8.71e-06, Loss=3.49e-02 BER=1.38e-02 FER=1.35e-01
+Training epoch 83, Batch 1000/1000: LR=8.71e-06, Loss=3.48e-02 BER=1.38e-02 FER=1.35e-01
+Epoch 83 Train Time 38.34650015830994s
+
+Training epoch 84, Batch 500/1000: LR=7.89e-06, Loss=3.49e-02 BER=1.38e-02 FER=1.37e-01
+Training epoch 84, Batch 1000/1000: LR=7.89e-06, Loss=3.52e-02 BER=1.40e-02 FER=1.37e-01
+Epoch 84 Train Time 38.50878167152405s
+
+Training epoch 85, Batch 500/1000: LR=7.12e-06, Loss=3.50e-02 BER=1.39e-02 FER=1.35e-01
+Training epoch 85, Batch 1000/1000: LR=7.12e-06, Loss=3.51e-02 BER=1.39e-02 FER=1.36e-01
+Epoch 85 Train Time 38.49991989135742s
+
+Training epoch 86, Batch 500/1000: LR=6.40e-06, Loss=3.54e-02 BER=1.41e-02 FER=1.38e-01
+Training epoch 86, Batch 1000/1000: LR=6.40e-06, Loss=3.52e-02 BER=1.40e-02 FER=1.37e-01
+Epoch 86 Train Time 38.4186053276062s
+
+Training epoch 87, Batch 500/1000: LR=5.71e-06, Loss=3.58e-02 BER=1.42e-02 FER=1.38e-01
+Training epoch 87, Batch 1000/1000: LR=5.71e-06, Loss=3.55e-02 BER=1.41e-02 FER=1.37e-01
+Epoch 87 Train Time 38.38414931297302s
+
+Training epoch 88, Batch 500/1000: LR=5.07e-06, Loss=3.51e-02 BER=1.39e-02 FER=1.36e-01
+Training epoch 88, Batch 1000/1000: LR=5.07e-06, Loss=3.52e-02 BER=1.39e-02 FER=1.37e-01
+Epoch 88 Train Time 38.39203190803528s
+
+Training epoch 89, Batch 500/1000: LR=4.48e-06, Loss=3.53e-02 BER=1.41e-02 FER=1.37e-01
+Training epoch 89, Batch 1000/1000: LR=4.48e-06, Loss=3.56e-02 BER=1.41e-02 FER=1.38e-01
+Epoch 89 Train Time 38.39319896697998s
+
+Training epoch 90, Batch 500/1000: LR=3.93e-06, Loss=3.49e-02 BER=1.39e-02 FER=1.36e-01
+Training epoch 90, Batch 1000/1000: LR=3.93e-06, Loss=3.50e-02 BER=1.39e-02 FER=1.36e-01
+Epoch 90 Train Time 38.40957260131836s
+
+Training epoch 91, Batch 500/1000: LR=3.42e-06, Loss=3.54e-02 BER=1.40e-02 FER=1.36e-01
+Training epoch 91, Batch 1000/1000: LR=3.42e-06, Loss=3.50e-02 BER=1.39e-02 FER=1.36e-01
+Epoch 91 Train Time 38.43904781341553s
+
+Training epoch 92, Batch 500/1000: LR=2.97e-06, Loss=3.53e-02 BER=1.41e-02 FER=1.36e-01
+Training epoch 92, Batch 1000/1000: LR=2.97e-06, Loss=3.54e-02 BER=1.41e-02 FER=1.37e-01
+Epoch 92 Train Time 39.80876064300537s
+
+Training epoch 93, Batch 500/1000: LR=2.56e-06, Loss=3.50e-02 BER=1.39e-02 FER=1.35e-01
+Training epoch 93, Batch 1000/1000: LR=2.56e-06, Loss=3.52e-02 BER=1.39e-02 FER=1.37e-01
+Epoch 93 Train Time 38.70691204071045s
+
+Training epoch 94, Batch 500/1000: LR=2.19e-06, Loss=3.54e-02 BER=1.41e-02 FER=1.37e-01
+Training epoch 94, Batch 1000/1000: LR=2.19e-06, Loss=3.51e-02 BER=1.40e-02 FER=1.36e-01
+Epoch 94 Train Time 38.69500112533569s
+
+Training epoch 95, Batch 500/1000: LR=1.88e-06, Loss=3.52e-02 BER=1.40e-02 FER=1.36e-01
+Training epoch 95, Batch 1000/1000: LR=1.88e-06, Loss=3.50e-02 BER=1.39e-02 FER=1.36e-01
+Epoch 95 Train Time 38.815444231033325s
+
+Training epoch 96, Batch 500/1000: LR=1.61e-06, Loss=3.46e-02 BER=1.37e-02 FER=1.34e-01
+Training epoch 96, Batch 1000/1000: LR=1.61e-06, Loss=3.48e-02 BER=1.38e-02 FER=1.35e-01
+Epoch 96 Train Time 38.66439938545227s
+
+Training epoch 97, Batch 500/1000: LR=1.39e-06, Loss=3.49e-02 BER=1.39e-02 FER=1.36e-01
+Training epoch 97, Batch 1000/1000: LR=1.39e-06, Loss=3.48e-02 BER=1.38e-02 FER=1.36e-01
+Epoch 97 Train Time 38.66152548789978s
+
+Training epoch 98, Batch 500/1000: LR=1.22e-06, Loss=3.49e-02 BER=1.39e-02 FER=1.36e-01
+Training epoch 98, Batch 1000/1000: LR=1.22e-06, Loss=3.47e-02 BER=1.38e-02 FER=1.36e-01
+Epoch 98 Train Time 38.720032930374146s
+
+Training epoch 99, Batch 500/1000: LR=1.10e-06, Loss=3.51e-02 BER=1.39e-02 FER=1.36e-01
+Training epoch 99, Batch 1000/1000: LR=1.10e-06, Loss=3.49e-02 BER=1.38e-02 FER=1.35e-01
+Epoch 99 Train Time 38.773688554763794s
+
+Training epoch 100, Batch 500/1000: LR=1.02e-06, Loss=3.45e-02 BER=1.36e-02 FER=1.36e-01
+Training epoch 100, Batch 1000/1000: LR=1.02e-06, Loss=3.50e-02 BER=1.38e-02 FER=1.37e-01
+Epoch 100 Train Time 38.706233978271484s
+
+
+Test Loss 4: 1.35e-02 5: 1.70e-03 6: 1.03e-04
+Test FER 4: 6.21e-02 5: 8.45e-03 6: 4.98e-04
+Test BER 4: 4.92e-03 5: 5.42e-04 6: 3.00e-05
+Test -ln(BER) 4: 5.31e+00 5: 7.52e+00 6: 1.04e+01
+# of testing samples: [100352.0, 100352.0, 202752.0]
+ Test Time 75.29773020744324 s
+
