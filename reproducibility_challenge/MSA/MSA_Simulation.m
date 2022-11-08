@@ -1,28 +1,35 @@
-X=categorical({'N48K24','N60K30','N120K60','N200K100','N400K200'});
-X=reordercats(X,{'N48K24','N60K30','N120K60','N200K100','N400K200'});
-Y=[27.4963 34.7932 90.6075 256.92 1480.05];
-
-TestL={'N48K24','N60K30','N120K60','N200K100','N400K200','N1008K504'};
-
-figure()
-b=bar(X,Y);
+ber=[0	0.5	1	1.5	2	2.25	2.5	2.75	3]
+N48K24=[0.1304	0.1123	0.0869	0.0608	0.0391	0.0292	0.0221	0.0171	0.0135];
+semilogy(ber, N48K24, 'r-o');
 hold on
-b.FaceColor = 'flat';
-b.CData(1,:)=[1 0 0];
-b.CData(2,:)=[0 1 0];
-b.CData(3,:)=[0 0 1];
-b.CData(4,:)=[0 0.5 0];
-b.CData(5,:)=[0 0 0.5];
-bh(1) = bar(nan,nan,'r');
-bh(2) = bar(nan,nan,'g');
-bh(3) = bar(nan,nan,'b');
-bh(4) = bar(nan,nan,'m');
-bh(5) = bar(nan,nan,'k');
-legend(bh, string(X),'location','northwest');
 
-xtips1 = b(1).XEndPoints;
-ytips1 = b(1).YEndPoints;
-labels1 = string(b(1).YData);
-text(xtips1,ytips1,labels1,'HorizontalAlignment','center',...
-    'VerticalAlignment','bottom')
-ylabel('time')
+N60K30=[0.1425	0.115	0.0799	0.0537	0.0357	0.0269	0.0218	0.0141	0.0088];
+semilogy(ber, N60K30, 'b-o');
+
+N120K60=[0.1588	0.1263	0.0999	0.0611	0.0302	0.0187	0.0128	0.0081	0.0041]
+semilogy(ber, N120K60, 'k-o');
+hold on
+
+N200K100=[0.1595	0.1273	0.0949	0.0582	0.0244	0.015	0.0073	0.0036	0.0023]
+semilogy(ber, N200K100, 'm-o');
+hold on
+
+N400K200=[0.1593	0.1425	0.0946	0.057	0.0179	0.0098	0.0032	0.0012	0.0003]
+semilogy(ber, N400K200, 'g-o');
+hold on
+
+ber2=[0	0.5	1	1.5	2	2.25	2.5	2.75]
+N1008K504=[0.1638	0.1443	0.1136	0.0599	0.0184	0.0052	0.0014	0.00022535]
+semilogy(ber2, N1008K504, 'c-o');
+hold on
+
+ber2=[1.5	2	2.25	2.5	2.75]
+N1008K504=[0.0299	0.0109	0.0026	0.00042685	0.000040098]
+semilogy(ber2, N1008K504, 'k');
+hold on
+
+title('MSA')
+xlabel('Eb/No')
+ylabel('BER')
+
+legend('N48K24','N60K30','N120K60','N200K100','N400K200','N1008K504(iter20)');
