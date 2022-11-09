@@ -22,6 +22,7 @@ title('training convergence')
 xlabel('epoch')
 ylabel('loss')
 plot(x,y,'bo')
+
 hold on
 plot(x1,y1,'ro')
 hold on
