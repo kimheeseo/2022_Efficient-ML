@@ -20,6 +20,7 @@ y1=[2.28E-01	1.92E-01	1.81E-01	1.64E-01	1.52E-01	1.41E-01	1.28E-01	1.14E-01	1.03
 ]%N=121, K=60
 title('training convergence')
 xlabel('epoch')
+ylabel('loss')
 plot(x,y,'bo')
 hold on
 plot(x1,y1,'ro')
