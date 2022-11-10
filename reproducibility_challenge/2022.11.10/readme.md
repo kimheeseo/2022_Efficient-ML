@@ -9,7 +9,7 @@
 
 ## 시뮬레이션 할 것
 1. python Main.py --gpu=0 --epochs=600 --test_batch_size=512 --N_dec=6 --d_model=32 --code_type=LDPC --code_n=121 --code_k=60
-- iteration 3일 때의 결과 값 (n121k60_iteration6)
+- iteration 3일 때의 결과 값 (n121k60, --N_dec=6)
 - 2022년 11월 10일 오후 6시20분 start
 
 2. python Main.py --gpu=0 --epochs=600 --test_batch_size=512 --N_dec=6 --d_model=32 --code_type=LDPC --code_n=121 --code_k=80
