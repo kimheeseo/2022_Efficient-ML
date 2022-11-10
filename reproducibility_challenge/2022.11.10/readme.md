@@ -9,8 +9,14 @@
 
 ## 시뮬레이션 할 것
 1. python Main.py --gpu=0 --epochs=600 --test_batch_size=512 --N_dec=6 --d_model=32 --code_type=LDPC --code_n=121 --code_k=60
-- iteration 3일 때의 결과 값
+- iteration 3일 때의 결과 값 (n121k60_iteration6)
+
 2. python Main.py --gpu=0 --epochs=600 --test_batch_size=512 --N_dec=6 --d_model=32 --code_type=LDPC --code_n=121 --code_k=80
+- iteration 3일 때의 결과 값(n121k80)
+
+3. python Main.py --gpu=0 --epochs=600 --test_batch_size=512 --N_dec=10 --d_model=32 --code_type=LDPC --code_n=121 --code_k=60
+- iteration 5일 때의 결과 값 (n121k60_iteration5)
+- 2022년 11월1일 오후4시32분 epcoh 64
 
 3. 결과 값 비교
 - ★ 600_LDPC__Code_n_121_k_70__08_11_2022_17_55_47.txt(n121k70, iteration 3)
