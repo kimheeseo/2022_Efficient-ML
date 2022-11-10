@@ -18,4 +18,8 @@
 
 +) python Main.py --gpu=0 --epochs=600 --test_batch_size=512 --N_dec=2 --d_model=32 --code_type=LDPC --code_n=121 --code_k=60
 - iteration 1
+
++) python Main.py --gpu=0 --epochs=600 --test_batch_size=512 --N_dec=10 --d_model=32 --code_type=LDPC --code_n=121 --code_k=60
+- iteration 5
+
 ## 3) python Main.py --gpu=0  --epochs=600 --test_batch_size=512 --N_dec=6 --d_model=32 --code_type=LDPC --code_n=121 --code_k=80
