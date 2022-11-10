@@ -18,7 +18,7 @@
 - iteration 5일 때의 결과 값 (n121k60_iteration5)
 - 2022년 11월1일 오후4시32분 epcoh 64
 
-3. 결과 값 비교
+## 결과 값 비교
 - ★ 600_LDPC__Code_n_121_k_70__08_11_2022_17_55_47.txt(n121k70, iteration 3)
 Self-Attention Sparsity Ratio=75.99%, Self-Attention Complexity Ratio=12.00%
 
