@@ -13,7 +13,9 @@
 - 2022.11.09 오후 8시 03분 : epoch 252
 - 2022.11.09. 오후 10시 27분 : epoch 333  => 11월10일 오전 6시 예정(iteration 3)
 
-## python Main.py --gpu=0 --epochs=600 --test_batch_size=800 --N_dec=6 --d_model=32 --code_type=LDPC --code_n=121 --code_k=60
+## +) python Main.py --gpu=0 --epochs=600 --test_batch_size=512 --N_dec=4 --d_model=32 --code_type=LDPC --code_n=121 --code_k=60
 - iteration 2 
 
++) python Main.py --gpu=0 --epochs=600 --test_batch_size=512 --N_dec=2 --d_model=32 --code_type=LDPC --code_n=121 --code_k=60
+- iteration 1
 ## 3) python Main.py --gpu=0  --epochs=600 --test_batch_size=512 --N_dec=6 --d_model=32 --code_type=LDPC --code_n=121 --code_k=80
