@@ -16,4 +16,4 @@
 - 600_LDPC__Code_n_121_k_70__08_11_2022_17_55_47.txt(n121k70, iteration 3)
 - iteration3_LDPC__Code_n_121_k_60__09_11_2022_11_36_13.txt(n121k60, iteration 3)
 
-<span style="color:yellow"> - n121k80 필요</span>
+<u>- n121k80 필요</u>
