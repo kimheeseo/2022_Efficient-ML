@@ -25,4 +25,4 @@ n1008k504=[0.0043	0.00083305	0.00015363	0.000017479]
 semilogy(ber, n1008k504,'g-o')
 hold on
 
-legend('MSA n400k200','MSA n1008k504','SPA n400k200','SPA n1008k504')
+legend('MSA n400k200','MSA n1008k504','SPA n1008k504')
