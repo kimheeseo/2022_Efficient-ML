@@ -20,6 +20,9 @@
 - 2022년 11월 10일 오후4시32분 epcoh 64
 - 2022년 11월 10일 오후 6시20분 clear
 
+4. python Main.py --gpu=0 --epochs=600 --test_batch_size=512 --N_dec=6 --d_model=32 --code_type=LDPC --code_n=121 --code_k=70
+- 2022년 11월11일 오전 12시28분
+
 ## 결과 값 비교
 - ★ 600_LDPC__Code_n_121_k_70__08_11_2022_17_55_47.txt(n121k70, iteration 3)
 Self-Attention Sparsity Ratio=75.99%, Self-Attention Complexity Ratio=12.00%
